@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3182095d1b3a4f90b37ed201f8b77515, type: 3}
+  m_Name: Truck Settings 1
+  m_EditorClassIdentifier: 
+  FuelCapacity: 200
+  StartFuel: 150
+  FuelConsumptionRate: 1
+  FuelConsumptionCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MaxSteerAngle: 35
+  TorqueMultiplier: 1000
+  BrakeTorque: 2000
